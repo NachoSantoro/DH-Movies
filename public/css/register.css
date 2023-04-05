@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/fondo-netflix.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.formulario{
+    
+    margin: 5%;
+}
+form{
+    background-color: rgba(67, 70, 70, 0.75);
+    padding:12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding:0px 8px;
+    border-radius: 36px;
+    border: rgb(77, 72, 72) 1px solid;
+    margin-top: 16px;
+    transition: all .3s ease-in-out;
+}
+input[type="file"]{
+    font-size: 15px;
+}
+
+input:focus{
+background-color: #ff5454;
+color: snow;
+}
+.boton{
+    FONT-WEIGHT: bold;
+    background: rgb(248, 4, 4);
+    color: #f7f2f2;
+     width: 76%;
+      padding: 10px;
+      margin: 20px 0px;
+      border-radius: 36px;
+      border: black 1px solid;
+      transition: 150ms
+  }
+  .boton:hover{
+    background: rgb(211, 208, 208) ;
+    color: #FFF;
+    cursor:pointer;
+  }
