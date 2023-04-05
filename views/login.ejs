@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+
+
+
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    
+    <!-- header -->
+    <%-include ('partials/header.ejs') %> 
+    <!-- header -->
+    
+
+    <main class="login">
+        <form action="/" method="POST">
+            <input type="text" name="user" placeholder="Nombre de usuario">
+            <br>
+            <br>
+            <input type="password" name="pass" placeholder="Contraseña">
+            <a class="olvidaste" href="#"> ¿olvidaste tu contraseña? </a>
+            <br>
+            <button class="boton" type="submit" value="Enviar"> Enviar </button>
+        </form>
+    </main>
+        
+    
+
+        <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+</body>
+</html>
